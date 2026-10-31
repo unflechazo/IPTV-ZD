@@ -27,8 +27,6 @@ http://36.49.50.4:8800/rtp/239.37.0.065:5540
 http://36.49.50.4:8800/rtp/239.37.0.116:5540
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",新疆卫视
 http://36.49.50.4:8800/rtp/239.37.0.039:5540
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",海南卫视
-http://36.49.50.4:8800/rtp/239.37.0.035:5540
 #EXTINF:-1 tvg-id="吉林影视" tvg-name="吉林影视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%90%89%E6%9E%97%E5%BD%B1%E8%A7%86.png" group-title="影视频道",吉林影视
 http://36.49.50.4:8800/rtp/239.37.0.103:5540
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E9%83%BD%E5%B8%82%E5%89%A7%E5%9C%BA.png" group-title="影视频道",都市剧场
