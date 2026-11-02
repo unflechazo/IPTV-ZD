@@ -1,10 +1,8 @@
 name: Hotel source refresh
-
 # 酒店源（HLS）每天巡检三次：北京 06:00 / 12:00 / 18:00
 #   06:00、18:00  全量：重新拉 extract_hotel -> 验活 -> 聚合（能发现新主机，6-8 分钟）
 #   12:00        巡检：只复验现有地址，剔除失效（1-2 分钟，不拉全量）
 # 和组播采集解耦：组播走 api-harvest / site-data，酒店源只在这里跑，时间固定。
-
 on:
   schedule:
     # UTC 22:00 = 北京次日 06:00（全量）
@@ -14,14 +12,11 @@ on:
     # UTC 10:00 = 北京 18:00（全量）
     - cron: "0 10 * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
   group: hotel-source
   cancel-in-progress: false
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -30,41 +25,33 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Restore relay pool from state branch
         run: bash scripts/restore_state.sh
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install deps
         run: pip install requests urllib3
-
       - name: Harvest hotel sources (full)
         if: github.event.schedule != '0 4 * * *'
         env:
           PYTHONIOENCODING: utf-8
         run: cd spider && timeout 1800 python hotel_pool.py
-
       - name: Patrol hotel sources (existing only)
         if: github.event.schedule == '0 4 * * *'
         env:
           PYTHONIOENCODING: utf-8
         run: cd spider && timeout 900 python hotel_pool.py --check-only
-
       - name: Harvest gangaotai sources
         env:
           PYTHONIOENCODING: utf-8
         run: cd spider && python gangaotai_pool.py
-
       - name: Build international channels
         env:
           PYTHONIOENCODING: utf-8
         # --no-probe：种子已在大陆网络深度体检过，Actions 跑在美国，
         # 地域结论相反，真验活会误杀大陆能通的源
         run: cd spider && python intl_pool.py --no-probe
-
       - name: Build EPG
         # 生成节目单（国内 615 台 + 港澳台 50 台）。continue-on-error：
         # epg.pw 是境外站，Actions 偶尔拉不到，失败就沿用上一版 EPG，不阻塞整个任务。
@@ -76,16 +63,13 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
         run: python tools/build_epg.py
-
       - name: Rebuild subscriptions
         env:
           PYTHONIOENCODING: utf-8
         run: cd spider && python subs.py
-
       # 酒店源池含全部播放地址，只进 state 分支，不进 main（Pages 会公开 main）
       - name: Push hotel pool to state branch
-        run: bash scripts/push_state.sh
-
+        run: bash scripts/push_state.sh || echo "::warning::state分支推送异常，自动跳过，继续提交订阅"
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
