@@ -1,0 +1,17 @@
+#EXTM3U x-tvg-url="https://zzf.new.tg/epg.xml" url-tvg="https://zzf.new.tg/epg.xml"
+#EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%AE%89%E5%A4%9A%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",安多卫视
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.109:5140
+#EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%BA%B7%E5%B7%B4%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",康巴卫视
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.175:5140
+#EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%BB%B6%E8%BE%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",延边卫视
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.76:5140
+#EXTINF:-1 tvg-name="成龙" tvg-logo="https://zzf.new.tg/data/logos/682f1d4d333c.png" group-title="明星频道",成龙
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.24:5140
+#EXTINF:-1 tvg-name="先锋乒羽" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%85%88%E9%94%8B%E4%B9%92%E7%BE%BD.png" group-title="数字频道",先锋乒羽
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.37:5140
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99.png" group-title="地方频道",北京纪实科教
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.77:5140
+#EXTINF:-1 tvg-name="四川妇女儿童" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%9B%9B%E5%B7%9D%E5%A6%87%E5%A5%B3%E5%84%BF%E7%AB%A5.png" group-title="地方频道",四川妇女儿童
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.7:5140
+#EXTINF:-1 tvg-name="西藏藏语" group-title="地方频道",西藏藏语
+http://zhgx.app.sccncd.com:80/rtp/239.0.0.105:5140
