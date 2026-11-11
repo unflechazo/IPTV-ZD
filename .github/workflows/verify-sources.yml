@@ -25,6 +25,10 @@ on:
     # 北京时间 01:30，避开其他任务的整点
     - cron: "30 17 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 concurrency:
   group: verify-sources
   cancel-in-progress: false
