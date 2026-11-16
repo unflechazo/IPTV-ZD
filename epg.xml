@@ -1552,24 +1552,24 @@
     <display-name lang="zh">中国教育2</display-name><display-name lang="zh">中国教育2台</display-name></channel>
   <channel id="中国教育4">
     <display-name lang="zh">中国教育4</display-name><display-name lang="zh">中国教育4台</display-name></channel>
-  <channel id="国学频道">
-    <display-name lang="zh">国学频道</display-name><display-name lang="zh">国学</display-name></channel>
-  <channel id="CCTV兵器科技">
-    <display-name lang="zh">CCTV兵器科技</display-name><display-name lang="zh">兵器科技</display-name></channel>
   <channel id="CCTV央视精品">
     <display-name lang="zh">CCTV央视精品</display-name><display-name lang="zh">央视精品</display-name></channel>
   <channel id="CCTV电视指南">
     <display-name lang="zh">CCTV电视指南</display-name><display-name lang="zh">电视指南</display-name></channel>
-  <channel id="CCTV风云足球">
-    <display-name lang="zh">CCTV风云足球</display-name><display-name lang="zh">风云足球</display-name></channel>
-  <channel id="CCTV风云音乐">
-    <display-name lang="zh">CCTV风云音乐</display-name><display-name lang="zh">风云音乐</display-name></channel>
+  <channel id="国学频道">
+    <display-name lang="zh">国学频道</display-name><display-name lang="zh">国学</display-name></channel>
   <channel id="CCTV世界地理">
     <display-name lang="zh">CCTV世界地理</display-name><display-name lang="zh">世界地理</display-name></channel>
+  <channel id="CCTV兵器科技">
+    <display-name lang="zh">CCTV兵器科技</display-name><display-name lang="zh">兵器科技</display-name></channel>
   <channel id="CCTV央视台球">
     <display-name lang="zh">CCTV央视台球</display-name><display-name lang="zh">央视台球</display-name></channel>
   <channel id="CCTV女性时尚">
     <display-name lang="zh">CCTV女性时尚</display-name><display-name lang="zh">女性时尚</display-name></channel>
+  <channel id="CCTV风云足球">
+    <display-name lang="zh">CCTV风云足球</display-name><display-name lang="zh">风云足球</display-name></channel>
+  <channel id="CCTV风云音乐">
+    <display-name lang="zh">CCTV风云音乐</display-name><display-name lang="zh">风云音乐</display-name></channel>
   <channel id="翡翠台">
     <display-name lang="zh">翡翠台</display-name><icon src="" />
   </channel>
