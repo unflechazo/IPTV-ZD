@@ -1,6 +1,10 @@
 #EXTM3U x-tvg-url="https://zzf.new.tg/epg.xml" url-tvg="https://zzf.new.tg/epg.xml"
-#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV-4K" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4K.png" group-title="央视频道",CCTV-4K
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV-4K" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4K.png" group-title="央视频道",CCTV-4K
 http://222.90.21.30:9901/rtp/239.111.205.40:5140
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV-4K" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4K.png" group-title="央视频道",CCTV-4K
+http://222.90.21.30:9901/rtp/239.109.205.192:9608
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV-4K" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4K.png" group-title="央视频道",CCTV-4K
+http://222.90.21.30:9901/rtp/239.111.205.38:5140
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4oz.png" group-title="央视频道",CCTV4欧洲
 http://222.90.21.30:9901/rtp/239.111.205.83:5140
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4mz.png" group-title="央视频道",CCTV4美洲
@@ -29,8 +33,10 @@ http://222.90.21.30:9901/rtp/239.112.205.26:5140
 http://222.90.21.30:9901/rtp/239.111.205.78:5140
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png" group-title="港澳频道",凤凰资讯
 http://222.90.21.30:9901/rtp/239.111.205.82:5140
-#EXTINF:-1 tvg-id="中国教育4" tvg-name="中国教育4" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CETV4.png" group-title="国教频道",中国教育4
+#EXTINF:-1 tvg-name="中国教育4" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CETV4.png" group-title="国教频道",中国教育4
 http://222.90.21.30:9901/rtp/239.111.205.15:5140
+#EXTINF:-1 tvg-name="中国教育4" tvg-logo="https://gcore.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CETV4.png" group-title="国教频道",中国教育4
+http://222.90.21.30:9901/rtp/239.109.205.64:8448
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA.png" group-title="数字频道",欢笑剧场
 http://222.90.21.30:9901/rtp/239.109.205.51:8344
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@main/png/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA.png" group-title="数字频道",欢笑剧场
